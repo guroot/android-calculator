@@ -10,10 +10,13 @@
         android:id="@+id/textview_calculator_result"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="000"
-        android:textSize="30pt"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        />
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:text="000"
+        android:textSize="30pt" />
 
     <Button
         android:id="@+id/button_number_1"
