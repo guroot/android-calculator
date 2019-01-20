@@ -11,7 +11,7 @@ public class Calculator {
     public static final int OPERATOR_SUB = 2;
     public static final int OPERATOR_MUL = 3;
     public static final int OPERATOR_DIV = 4;
-
+ 
 
     public Calculator() {
         reset();
